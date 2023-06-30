@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Profile</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgb(37, 37, 37);
+      color: #333;
+    }
+
+    .mainContainer {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    .coverContainer {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      position: relative;
+    }
+
+    .saxeli {
+      text-align: center;
+    }
+
+    .profile-photo {
+      position: absolute;
+      top: 90%;
+      left: 1%;
+      transform: translate(0, -50%);
+      border-radius: 50%;
+    }
+
+    nav {
+      background-color: #cfcfcf;
+      margin-top: 20px;
+    }
+
+    ul.menu {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 10px 0;
+      border-radius: 20%;
+    }
+
+    li.menu-item {
+      margin: 0 10px;
+    }
+
+    a.menu-link {
+      color: #333;
+      text-decoration: none;
+      padding: 5px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    a.menu-link:hover {
+      background-color: #424242;
+      color: rgb(241, 241, 241);
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .h2{
+        margin-bottom: 10px;  
+      }
+    .icon {
+      margin-left: 10px;
+      height: 20px;
+      width: 20px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+    }
+
+    @media screen and (max-width: 700px) {
+      nav {
+        border-radius: 1%;
+        background-color: #cfcfcf;
+        margin-top: 20px;
+        position: sticky;
+        top: 0;
+      }
+
+      .menu {
+        justify-content: center;
+        border-radius: 5%;
+      }
+
+      .menu-item {
+        margin: 0 5px;
+      }
+
+      .saxeli {
+        text-align: right;
+        font-size: 150%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="coverContainer">
+    <header>
+      <img src="cover_photo.png" class="cover-photo" alt="Cover Photo" width="800" height="200">
+      <img src="tornike_photo.jpg" class="profile-photo" alt="Profile Photo" width="200" height="200">
+    </div>
+  <div class="mainContainer">
+    <h1 class="saxeli">თორნიკე ელყანიშვილი</h1>
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/tornikeelkanishvili222/"><img src="linkedin_icon.png" alt="LinkedIn" class="icon"></a>
+        <a href="https://www.facebook.com/ChemmaMzemmm/"><img src="facebook_icon.png" alt="Facebook" class="icon"></a>
+        <a href="https://www.instagram.com/tornike.elkanishvili/"><img src="instagram_icon.png" alt="Instagram" class="icon"></a>
+    </div>
+    </header>
+
+    <nav>
+      <ul class="menu">
+        <li class="menu-item"><a class="menu-link" href="#about">ჩემს შესახებ</a></li>
+        <li class="menu-item"><a class="menu-link" href="#experience">გამოცდილება</a></li>
+        <li class="menu-item"><a class="menu-link" href="#knowledge">ცოდნა</a></li>
+        <li class="menu-item"><a class="menu-link" href="#interest">ინტერესი</a></li>
+      </ul>
+    </nav>
+
+    <section id="about">
+        <br>
+      <h2>ჩემს შესახებ</h2>
+      <br>
+      <a href="#" id="downloadCV">გადმოწერე CV</a>
+      <br> <br>
+      <p>გამარჯობა, მე ვარ თორნიკე, 20 წლის , ბიზნესისა და ტექნოლოგიების
+        უნივერსიტეტის მეორე კურსის სტუდენტი აიტის მიმართულებით.
+        ბავშვობიდან მიზიდავსტექნოლოგიები, აქედან გამომდინარე
+        მესმის,როგორცჰარდვეარი ისე სოფტვერი.</p>
+    </section>
+
+    <section id="experience">
+      <h2>გამოცდილება</h2>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+    </section>
+
+    <section id="knowledge">
+      <h2>ცოდნა</h2>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+
+    </section>
+
+    <section id="interest">
+      <h2>ინტერესი</h2>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur mi vitae metus lacinia, et volutpat lorem iaculis. Fusce dapibus nulla vel mauris interdum, eget tempus metus consectetur.</p>
+    </section>
+  </div>
+</body>
+<script>
+    function downloadCV() {
+        var link = document.createElement('a');
+        link.href = 'https://drive.google.com/file/d/1C-5x93gFO2WB5gHAGwfH0RFa13E_kcXR/view?usp=sharing';
+        link.download = 'CV.pdf';
+        link.click();
+    }
+
+    var downloadLink = document.getElementById('downloadCV');
+    downloadLink.addEventListener('click', downloadCV);
+</script>
+</html>
